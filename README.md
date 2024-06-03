@@ -8,3 +8,6 @@
 - `Unordered Lists` is list of items without order.
 - `Ordered Lists` is list of item with intential order.
 - `Association Lists` have 3 elements: `dl` consists of zero or more name-value groups. `dt` represents the term or name of term-description group. `dd` represents the description, definition or value of term-description group.
+- `Table` is an element to show multidimentional content - nothing changed in html5, still includes rows, columns and cells.
+- `Main` elememt represents the dominant content of the document.
+- `Div` element has no special meaning and only represents its children. When no other element is suitable, `div` comes last.

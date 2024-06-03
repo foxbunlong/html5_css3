@@ -1,4 +1,5 @@
 # NOTES
+## Groups
 - `Article` is a `semantic element` (element clearly describes its meaning to both the browser and the developer) in html5. It is considered as `Flow` Content, `Sectioning` Content or `Palpable` Content.
 - Comparision between `article` and `section` in [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - `Aside` is also a `semantic element` which is tangentially related to content around it but being separated from that content.
@@ -11,3 +12,8 @@
 - `Table` is an element to show multidimentional content - nothing changed in html5, still includes rows, columns and cells.
 - `Main` elememt represents the dominant content of the document.
 - `Div` element has no special meaning and only represents its children. When no other element is suitable, `div` comes last.
+
+## Texts
+- `Em` element is emphasis text in a sentense.
+- `Strong` represents strong importance, seriousness or urgency for its contents.
+- `Small` represents side comments (e.g. small print).

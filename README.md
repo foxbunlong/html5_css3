@@ -17,3 +17,7 @@
 - `Em` element is emphasis text in a sentense.
 - `Strong` represents strong importance, seriousness or urgency for its contents.
 - `Small` represents side comments (e.g. small print).
+- `Br` represents a line break.
+- `Self-closing tag` is a tag that is both a start and end tag at the same time.
+- `Author's comments` is comments inside html code.
+- `Span` has no special meaning and only represents its children. It's useful when used together with particular attributes.

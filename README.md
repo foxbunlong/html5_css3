@@ -1,5 +1,7 @@
 # NOTES
+
 ## Groups
+
 - `Article` is a `semantic element` (element clearly describes its meaning to both the browser and the developer) in html5. It is considered as `Flow` Content, `Sectioning` Content or `Palpable` Content.
 - Comparision between `article` and `section` in [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 - `Aside` is also a `semantic element` which is tangentially related to content around it but being separated from that content.
@@ -14,6 +16,7 @@
 - `Div` element has no special meaning and only represents its children. When no other element is suitable, `div` comes last.
 
 ## Texts
+
 - `Em` element is emphasis text in a sentense.
 - `Strong` represents strong importance, seriousness or urgency for its contents.
 - `Small` represents side comments (e.g. small print).
@@ -21,3 +24,17 @@
 - `Self-closing tag` is a tag that is both a start and end tag at the same time.
 - `Author's comments` is comments inside html code.
 - `Span` has no special meaning and only represents its children. It's useful when used together with particular attributes.
+
+## Browser and DOM
+
+- `Links` are a conceptual construct, created by `a`, `area`, `form` and `link`. They represent a connection between 2 resources (current document and another)
+- `Rendering engine` is a computer program that transform an HTML doc into a visual, interactive representation. [`Blink`](https://www.chromium.org/blink/) is rendering engine inside Google Chrome. [`Gecko`](https://firefox-source-docs.mozilla.org/overview/gecko.html) is rendering engine inside Mozilla Firefox. [`WebKit`](https://webkit.org/) is rendering engine inside Safari.
+- `Parse` is analyze text, character by character.
+- `Named Character References` are a [set of special character reference names](https://html.spec.whatwg.org/multipage/named-characters.html) that are supported by html.
+- `Object` is a collection of data and code to represent something.
+- `Model` is a representation of a thing. `Object Model` is a collection of objects that represent a thing and provide access to examine and change that thing.
+- `Document Object Model` - DOM is an object model that represents and HTML document. It provides the ability to examine and change the document as presented via the user agent.
+- Browser will read the document character by character and build up the DOM.
+- Developer tools: `Chrome DevTools`.
+- `Inspector` allows you to review and modify the DOM. It leaves html untouch.
+- `Id` of element is unique identity in the DOM.

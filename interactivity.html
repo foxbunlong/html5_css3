@@ -1,0 +1,168 @@
+<!-- Legacy DOCTYPE -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Understanding html5 - Interactivity</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#part1">Part 1</a></li>
+        <li><a href="#part2">Part 2</a></li>
+      </ul>
+    </nav>
+    <main>
+      <a href="https://google.com.vn" target="_blank">Link to Google Vietnam</a>
+      <h2>Named &lt;&lt; character &gt;&gt; references</h2>
+      <h3 id="part1">Part 1</h3>
+      <article>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+        repellat unde, obcaecati velit voluptatum inventore hic architecto quae
+        molestias quod est sint? Voluptate, natus. Error commodi animi dolorum
+        nisi veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quae nemo cumque consequatur saepe voluptate omnis illum provident, rem
+        laudantium ab autem nulla? Eius voluptates nesciunt libero praesentium
+        unde odit doloribus! Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. A, doloremque necessitatibus! Nobis ullam repudiandae quis
+        quisquam dolorem sequi cupiditate obcaecati ipsa vitae mollitia error
+        nemo aspernatur voluptatum minus, blanditiis earum. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Voluptatum sit dolores fugiat! Id
+        quia praesentium, ducimus temporibus reiciendis fuga, beatae cupiditate
+        possimus aspernatur illo, quaerat veniam atque ipsa magnam provident.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi,
+        et, nisi mollitia omnis dolor non inventore fuga aliquam corporis eum,
+        hic minus ipsa totam. Voluptates consequuntur blanditiis nemo nostrum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus iste
+        placeat, adipisci maxime maiores quis dolor odit dolore, optio ullam
+        officiis soluta, labore rerum! Perspiciatis fugiat iure asperiores
+        aperiam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laboriosam quis quas at, earum corrupti, voluptas ratione reprehenderit
+        cupiditate deserunt veritatis repudiandae fugit deleniti, incidunt saepe
+        vel placeat? Voluptate, nesciunt ad! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Tenetur quasi molestiae dolore autem
+        repellendus, iure perspiciatis corrupti, laboriosam nihil tempore
+        mollitia provident, id quod. Odit voluptatibus adipisci iste ducimus
+        laudantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Consequuntur corrupti aliquam maiores alias delectus a hic nam
+        voluptatum laboriosam ipsum animi accusamus, libero ipsam illum tempora
+        laborum quaerat commodi nihil?
+      </article>
+      <h3 id="part2">Part 2</h3>
+      <article>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+        repellat unde, obcaecati velit voluptatum inventore hic architecto quae
+        molestias quod est sint? Voluptate, natus. Error commodi animi dolorum
+        nisi veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quae nemo cumque consequatur saepe voluptate omnis illum provident, rem
+        laudantium ab autem nulla? Eius voluptates nesciunt libero praesentium
+        unde odit doloribus! Lorem ipsum dolor sit, amet consectetur adipisicing
+        elit. A, doloremque necessitatibus! Nobis ullam repudiandae quis
+        quisquam dolorem sequi cupiditate obcaecati ipsa vitae mollitia error
+        nemo aspernatur voluptatum minus, blanditiis earum. Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Voluptatum sit dolores fugiat! Id
+        quia praesentium, ducimus temporibus reiciendis fuga, beatae cupiditate
+        possimus aspernatur illo, quaerat veniam atque ipsa magnam provident.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo eligendi,
+        et, nisi mollitia omnis dolor non inventore fuga aliquam corporis eum,
+        hic minus ipsa totam. Voluptates consequuntur blanditiis nemo nostrum?
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus iste
+        placeat, adipisci maxime maiores quis dolor odit dolore, optio ullam
+        officiis soluta, labore rerum! Perspiciatis fugiat iure asperiores
+        aperiam minus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Laboriosam quis quas at, earum corrupti, voluptas ratione reprehenderit
+        cupiditate deserunt veritatis repudiandae fugit deleniti, incidunt saepe
+        vel placeat? Voluptate, nesciunt ad! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Tenetur quasi molestiae dolore autem
+        repellendus, iure perspiciatis corrupti, laboriosam nihil tempore
+        mollitia provident, id quod. Odit voluptatibus adipisci iste ducimus
+        laudantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Consequuntur corrupti aliquam maiores alias delectus a hic nam
+        voluptatum laboriosam ipsum animi accusamus, libero ipsam illum tempora
+        laborum quaerat commodi nihil?
+      </article>
+
+      <section id="contactme">
+        <h2>Contact Me</h2>
+        <form action="dosomething.html">
+          <label> Get request </label>
+          <p>
+            <label for="name"> Name </label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="off"
+              required
+            />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </p>
+          <p>
+            <label for="whycontact">Why contact me?</label>
+            <select id="whycontact" name="whycontact">
+              <option value="jobinterview">Job interview</option>
+              <option value="needcontractor">Need contractor</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="3"></textarea>
+          </p>
+          <fieldset>
+            <legend>Best contact time</legend>
+            <p>
+              <label for="contactTime1">Morning</label>
+              <input
+                type="radio"
+                id="contactTime1"
+                name="contactTime"
+                value="morning"
+              />
+            </p>
+            <p>
+              <label for="contactTime2">Afternoon</label>
+              <input
+                type="radio"
+                id="contactTime2"
+                name="contactTime"
+                value="afternoon"
+              />
+            </p>
+            <p>
+              <label for="contactTime3">Evening</label>
+              <input
+                type="radio"
+                id="contactTime3"
+                name="contactTime"
+                value="evening"
+              />
+            </p>
+            <p>
+              <label for="asap">ASAP</label>
+              <input type="checkbox" id="asap" name="asap" checked="true" />
+            </p>
+          </fieldset>
+          <button type="submit">Submit</button>
+        </form>
+        <br />
+        <form action="dosomething.html" method="post">
+          <label> Post request </label>
+          <p>
+            <label for="name"> Name </label>
+            <input type="text" id="name" name="name" autocomplete="off" />
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" />
+          </p>
+          <input type="button" value="Not actually send" />
+          <input type="submit" value="Send" />
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

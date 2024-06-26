@@ -38,3 +38,16 @@
 - Developer tools: `Chrome DevTools`.
 - `Inspector` allows you to review and modify the DOM. It leaves html untouch.
 - `Id` of element is unique identity in the DOM.
+
+## Accessibility
+- Using Semantics structure will make screen reader easier to understand your document.
+
+## Interactivity
+- `Nav` element represents a section of a page that links to other pages or to parts within the page.
+- In http request, there might be query string consists of name/value pair separated by ampersand to be sent via HTTP. It's called `Forms`.
+- `Form` element represents a hyperlink that can be manipulated through a collection of form-associated elements (editable and able to be submitted to a server for processing). The data is called `payload`. Method can be `post` (payload is form data) or `get` (payload is query string).
+- `Field` or `Control` is an element that allows user to input information (in context of a form element). Value in field is used to generated query string.
+- `Button` is used to submit the data.
+- `Radio` element in `group` can only have 1 control set its checkedness to true.
+- `Checkbox` element can only have 2 states: `on` or `off`.
+- `Fieldset` element represents a set of form controls grouped together. The caption is given by the 1st `legend` element.

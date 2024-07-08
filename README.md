@@ -59,3 +59,5 @@
 - `Stylesheet` is a collection of stylistic rules.
 - `User agent stylesheet` is a collection of stylistic rules that the user agent follows when displaying an HTML document. Each browser has its own css.
 - `Type selector` is to find and match elements in the DOM by their type.
+- `Inheritance` of CSS - all children will inherit the properties of their parent.
+- `Universal selector` is written as a CSS qualified name with an asterisk as local name, represents the qualified name of an element type.

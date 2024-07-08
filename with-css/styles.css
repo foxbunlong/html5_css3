@@ -1,3 +1,15 @@
 * {
-    color: red;
+  color: red;
+}
+
+[lang='vi'] {
+  font-weight: bold;
+}
+
+[class='my-list'] {
+  font-style: italic;
+}
+
+#my-id {
+  font-weight: bold;
 }

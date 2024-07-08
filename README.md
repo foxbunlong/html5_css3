@@ -61,3 +61,5 @@
 - `Type selector` is to find and match elements in the DOM by their type.
 - `Inheritance` of CSS - all children will inherit the properties of their parent.
 - `Universal selector` is written as a CSS qualified name with an asterisk as local name, represents the qualified name of an element type.
+- `Attribute selectors` find element based on attribute.
+- `Id selectors` find element based on id, represented by `#`in css file.

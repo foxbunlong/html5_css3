@@ -51,3 +51,11 @@
 - `Radio` element in `group` can only have 1 control set its checkedness to true.
 - `Checkbox` element can only have 2 states: `on` or `off`.
 - `Fieldset` element represents a set of form controls grouped together. The caption is given by the 1st `legend` element.
+
+## Javascript framework
+- `DOM manipulation` is changing the DOM tree after HTML document has been parsed and the DOM has been created.
+
+## Stylesheets and Querying Trees
+- `Stylesheet` is a collection of stylistic rules.
+- `User agent stylesheet` is a collection of stylistic rules that the user agent follows when displaying an HTML document. Each browser has its own css.
+- `Type selector` is to find and match elements in the DOM by their type.

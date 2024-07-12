@@ -1,15 +1,28 @@
 * {
-  color: red;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 [lang='vi'] {
   font-weight: bold;
 }
 
-[class='my-list'] {
+/* [class='my-list'] {
   font-style: italic;
+} */
+/* Short hand */
+.my-list {
+  font-style: italic;
+  color: blue;
 }
 
 #my-id {
+  font-weight: bold;
+}
+
+ul, ol {
+  font-size: large;
+}
+
+section p {
   font-weight: bold;
 }

@@ -63,3 +63,6 @@
 - `Universal selector` is written as a CSS qualified name with an asterisk as local name, represents the qualified name of an element type.
 - `Attribute selectors` find element based on attribute.
 - `Id selectors` find element based on id, represented by `#`in css file.
+- `Class selectors` find element until they equal to the notation. Thus, for HTML, div.value and div[class~=value] have the same meaning.
+- We can `group selectors` by placing comma between them to share the same style.
+- `Descendant combinator` - authors may want selectors to describe an element that is the descendant of another element in the document tree. Separated by whitespace.

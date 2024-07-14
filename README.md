@@ -66,3 +66,9 @@
 - `Class selectors` find element until they equal to the notation. Thus, for HTML, div.value and div[class~=value] have the same meaning.
 - We can `group selectors` by placing comma between them to share the same style.
 - `Descendant combinator` - authors may want selectors to describe an element that is the descendant of another element in the document tree. Separated by whitespace.
+- `Child combinator` describes a childhood relationship between 2 elements. Conducted by a greater-than sign `>` to separate 2 sequences of simple selectors. Child and descendant combinators can be used in a single selector (e.g `div ol>li p` - read from right to left).
+- `Next-sibling combinator` is made of the plus sign `+` that separates 2 sequences of simple selectors to represent elements that share the same parent in document tree. Immediately precedes to 1st element.
+- `Subsequent-sibling combinator` is made of the tildle `~` the separates 2 sequences of simple selectors to represent elements that share the same parent in document tree. Not necessarily immediately precedes to 1st element.
+
+## Sources
+- [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

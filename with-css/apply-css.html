@@ -21,5 +21,29 @@
         <li>Id is represented by #</li>
       </ol>
     </section>
+    <section>
+      <form>
+        <p>
+          <label for="name">Name</label>
+          <input type="text" id="name" />
+          This includes child combinator.
+        </p>
+      </form>
+    </section>
+    <section>
+      <h2>Next-sibling</h2>
+      <blockquote>
+        This blockquote next to h2 will be effected by next-sibling combinator.
+      </blockquote>
+      <blockquote>Other blockquotes will not be effected.</blockquote>
+    </section>
+    <section>
+      <h3>Subsequent-sibling</h3>
+      <blockquote>
+        This blockquote next to h3 will be effected by subsequent-sibling
+        combinator.
+      </blockquote>
+      <blockquote>Other blockquotes will also be effected.</blockquote>
+    </section>
   </body>
 </html>

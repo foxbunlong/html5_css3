@@ -19,10 +19,23 @@
   font-weight: bold;
 }
 
-ul, ol {
+ul,
+ol {
   font-size: large;
 }
 
 section p {
   font-weight: bold;
+}
+
+form > p {
+  color: violet;
+}
+
+h2 + blockquote {
+  color: blue;
+}
+
+h3 ~ blockquote {
+  color: blueviolet;
 }

@@ -69,6 +69,8 @@
 - `Child combinator` describes a childhood relationship between 2 elements. Conducted by a greater-than sign `>` to separate 2 sequences of simple selectors. Child and descendant combinators can be used in a single selector (e.g `div ol>li p` - read from right to left).
 - `Next-sibling combinator` is made of the plus sign `+` that separates 2 sequences of simple selectors to represent elements that share the same parent in document tree. Immediately precedes to 1st element.
 - `Subsequent-sibling combinator` is made of the tildle `~` the separates 2 sequences of simple selectors to represent elements that share the same parent in document tree. Not necessarily immediately precedes to 1st element.
+- `Child-indexed pseudo-classes` select elements which are sibling of each others. Made of `nth-child`.
+- `Typed child-indexed pseudo-classes` select same as `Child-indexed pseudo-classes` but with type specific.
 
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

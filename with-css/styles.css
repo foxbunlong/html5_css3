@@ -39,3 +39,11 @@ h2 + blockquote {
 h3 ~ blockquote {
   color: blueviolet;
 }
+
+#with-nth-child li:nth-child(2n+1) {
+  color: pink;
+}
+
+#with-nth-of-type > li:nth-of-type(odd) {
+  color: pink;
+}

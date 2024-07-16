@@ -47,3 +47,19 @@ h3 ~ blockquote {
 #with-nth-of-type > li:nth-of-type(odd) {
   color: pink;
 }
+
+a:visited {
+  color: red;
+}
+
+a:focus, a:hover {
+  color: darkblue;
+}
+
+input:focus {
+  outline: 2px solid black;
+}
+
+section:not(#my-id) {
+  font-size: medium; /* rotate value around to see change */
+}

@@ -71,6 +71,9 @@
 - `Subsequent-sibling combinator` is made of the tildle `~` the separates 2 sequences of simple selectors to represent elements that share the same parent in document tree. Not necessarily immediately precedes to 1st element.
 - `Child-indexed pseudo-classes` select elements which are sibling of each others. Made of `nth-child`.
 - `Typed child-indexed pseudo-classes` select same as `Child-indexed pseudo-classes` but with type specific.
+- `Location pseudo-classes` support to make selection based on link. In particular, state of link. Commonly `:link` and `:visited` pseudo classes.
+- `User action pseudo-classes` support to make selection based on user behavior. Most commonly used are `:hover` and `:focus`.
+- `Negation pseudo-classes` (matched none) find elements that is not something.
 
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

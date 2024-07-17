@@ -63,3 +63,8 @@ input:focus {
 section:not(#my-id) {
   font-size: medium; /* rotate value around to see change */
 }
+
+p::first-letter {
+  /* initial-letter: 3; */
+  font-size: x-large;
+}

@@ -73,7 +73,8 @@
 - `Typed child-indexed pseudo-classes` select same as `Child-indexed pseudo-classes` but with type specific.
 - `Location pseudo-classes` support to make selection based on link. In particular, state of link. Commonly `:link` and `:visited` pseudo classes.
 - `User action pseudo-classes` support to make selection based on user behavior. Most commonly used are `:hover` and `:focus`.
-- `Negation pseudo-classes` (matched none) find elements that is not something.
+- `Negation pseudo-classes` (matched none) find elements that is not something. Made of `:not`.
+- `Pseudo-elements` represents abstract elements of the document beyond those elements explicitly created by the document language. Example: `::first-letter`.
 
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

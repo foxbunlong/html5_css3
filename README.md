@@ -76,5 +76,13 @@
 - `Negation pseudo-classes` (matched none) find elements that is not something. Made of `:not`.
 - `Pseudo-elements` represents abstract elements of the document beyond those elements explicitly created by the document language. Example: `::first-letter`.
 
+## Order of cascade
+1. Important user agent declarations
+2. Import author declarations
+3. Normal author declarations
+4. Norma user agent declarations
+
+- Importance in css is represented by `!important`. This should not be overly used.
+
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

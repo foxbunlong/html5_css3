@@ -1,0 +1,3 @@
+:is(ul, ol) li {
+    outline: solid 1px red;
+}

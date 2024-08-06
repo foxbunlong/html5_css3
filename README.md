@@ -102,5 +102,9 @@ i.e. `@layer`
 ## Initial vs Inherit
 - Each element has its own initial decoration. It's `initial`. Or it can be inherited from other element and now it's called `inherit`.
 
+## Matches-Any Pseudo-class
+i.e. `:is`
+- Combination of all elements of selectors in comma-separated list
+
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

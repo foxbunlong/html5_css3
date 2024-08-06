@@ -84,5 +84,13 @@
 
 - Importance in css is represented by `!important`. This should not be overly used.
 
+## Specificity - Ordered as ABC
+A. Count the number of ID selectors in the selector
+B. Count the number of class selectors, attributes selectors, and the pseudo-classes in the selector
+C. Count the number of type selectors and pseudo-elements in the selector
+D. Ignore the universal selector
+
+
+
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

@@ -99,5 +99,8 @@ i.e. `@import`
 i.e. `@layer`
 - Provides more structured way to organize decorations within a particular cascade origin. Can be used to group css rules into layers and specify order of layers that should win the cascade.
 
+## Initial vs Inherit
+- Each element has its own initial decoration. It's `initial`. Or it can be inherited from other element and now it's called `inherit`.
+
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

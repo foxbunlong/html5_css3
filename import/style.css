@@ -1,0 +1,5 @@
+@import 'styles.css';
+ul {
+    font-weight: bold
+}
+@import 'styles2.css'; /* This one will be ignored and not downloaded */

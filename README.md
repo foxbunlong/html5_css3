@@ -90,7 +90,14 @@ B. Count the number of class selectors, attributes selectors, and the pseudo-cla
 C. Count the number of type selectors and pseudo-elements in the selector
 D. Ignore the universal selector
 
+## Import rule
+i.e. `@import`
+- Allow users to import style rules from other stylesheets
+- Should be before any of CSS rules
 
+## Layers
+i.e. `@layer`
+- Provides more structured way to organize decorations within a particular cascade origin. Can be used to group css rules into layers and specify order of layers that should win the cascade.
 
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

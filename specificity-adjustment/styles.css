@@ -1,0 +1,7 @@
+a:where(:not(:hover)) {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: underline;
+}

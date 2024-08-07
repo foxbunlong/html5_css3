@@ -106,5 +106,13 @@ i.e. `@layer`
 i.e. `:is`
 - Combination of all elements of selectors in comma-separated list
 
+## Specificity-Adjustment Pseudo-class
+i.e. `:where`
+- Has specificity of 0
+- Do filters in a selector
+
+## CSSOM
+- Tree that holds the setup properties applied for elements in DOM
+
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support

@@ -114,5 +114,20 @@ i.e. `:where`
 ## CSSOM
 - Tree that holds the setup properties applied for elements in DOM
 
+## Box model
+- Can be examized by:
+```css
+* {
+    outline: solid 1px red;
+}
+```
+
+## Viewport
+- Portion of a screen that has its own coordinates
+
+## DPI
+- Dot per inch (standed for pixel per inch)
+- Unit of screen pixel density
+
 ## Sources
 - [MDN](https://developer.mozilla.org/en-US/) and [Can I Use](https://caniuse.com/) - Trusted source for browser support
